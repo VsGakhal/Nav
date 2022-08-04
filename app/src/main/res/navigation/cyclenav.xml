@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cyclenav"
+    app:startDestination="@id/navHostFragOne">
+
+    <fragment
+        android:id="@+id/navHostFragOne"
+        android:name="com.example.nav.NavHostFragOne"
+        android:label="fragment_nav_host_frag_one"
+        tools:layout="@layout/fragment_nav_host_frag_one" >
+        <action
+            android:id="@+id/action_navHostFragOne_to_navHostFragSec2"
+            app:destination="@id/navHostFragSec" />
+    </fragment>
+    <fragment
+        android:id="@+id/navHostFragSec"
+        android:name="com.example.nav.NavHostFragSec"
+        android:label="fragment_nav_host_frag_sec"
+        tools:layout="@layout/fragment_nav_host_frag_sec" />
+</navigation>

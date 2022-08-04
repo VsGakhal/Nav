@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nav</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onattach_fragment">OnAttach Fragment</string>
+    <string name="oncreate_fragment">OnCreate Fragment</string>
+    <string name="oncreate_view_fragment">OnCreateView Fragment</string>
+    <string name="on_view_create_fragment">OnViewCreate Fragment</string>
+</resources>
